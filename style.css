@@ -70,7 +70,7 @@
 p{
     color: var(--primary-light-color);
     font-family: var(--text-font);
-    font-size: 2vw;
+    font-size: 3vw;
     margin:30px;
 }
 
@@ -194,6 +194,34 @@ form{
         border: none;
         border-radius: 0px;
         padding: 10px;
+    }
+
+    #left-title{
+        font-family: var(--title-font);
+        font-size: 20px;
+        color: var(--primary-light-color);
+        transition: 1s;
+        margin: 10px;
+    }
+
+    #left-side-button{
+        font-size: 60%;
+        font-family: var(--text-font);
+        color: var(--primary-light-color);
+        background-color: var(--primary-dark-color);
+        width: 30px;
+        height: 30px;
+        border: var(--primary-light-color) solid 2px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    p{
+        color: var(--primary-light-color);
+        font-family: var(--text-font);
+        font-size: 15px;
+        margin:10px;
+
     }
 
     #right-side{
