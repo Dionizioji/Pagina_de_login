@@ -153,6 +153,8 @@ form{
 }
 
 #submit-button{
+    font-family: var(--text-font);
+    font-size: 15px;
     padding: 3px;
     border-radius: 10px;
     height: 2em;
@@ -193,7 +195,7 @@ form{
         width: 100%;
         border: none;
         border-radius: 0px;
-        padding: 10px;
+        padding: 15px;
     }
 
     #left-title{
@@ -225,9 +227,18 @@ form{
     }
 
     #right-side{
+        padding:5px;
         width: 100%;
         border: none;
         border-radius: 0px;
+    }
+
+    #right-title{
+        font-family: var(--text-font);
+        font-size: 20px;
+        color: var(--primary-dark-color);
+        transition: 1s;
+        margin: 5px;
     }
 }
 
