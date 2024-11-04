@@ -4,4 +4,4 @@
 #### NOME, EMAIL, SENHA 
 #### Tecnologias utilizadas: JavaScript, HTML e CSS
 
-#### Acesse a aplicação: <a href='https://dionizioji.github.io/NBA_Card_Game/'>LINK</a>
+#### Acesse a aplicação: <a href='https://dionizioji.github.io/Pagina_de_login/'>LINK</a>
