@@ -11,14 +11,14 @@ toggleBtn.addEventListener('click', (event) => {
     event.preventDefault()
 
     if (toggleBtn.dataset.modeOn === 'onLight') {
-        document.getElementById('switch-icon').setAttribute('src', 'images/sun.png')
+        document.getElementById('switch-icon').setAttribute('src', './images/sun.png')
         toggleBtn.dataset.modeOn = 'onDark'
         const root = document.documentElement
         root.style.setProperty('--primary-dark-color', '#fdf9e6')
         root.style.setProperty('--primary-light-color', '#002a64')
 
     } else if (toggleBtn.dataset.modeOn === 'onDark') {
-        document.getElementById('switch-icon').setAttribute('src', 'images/moon.png')
+        document.getElementById('switch-icon').setAttribute('src', './images/moon.png')
         toggleBtn.dataset.modeOn = 'onLight'
         const root = document.documentElement
         root.style.setProperty('--primary-dark-color', '#002a64')
