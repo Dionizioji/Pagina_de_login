@@ -178,7 +178,7 @@ form{
     justify-content: space-evenly;
 }
 
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 650px), (max-height: 500px){
     #principal{
         display: flex;
         border: none;
